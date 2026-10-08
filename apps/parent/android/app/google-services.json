@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "270714379886",
-    "project_id": "parental-control-app-30857",
-    "storage_bucket": "parental-control-app-30857.firebasestorage.app"
+    "project_number": "1069479314535",
+    "project_id": "pcontrol-73e5a",
+    "storage_bucket": "pcontrol-73e5a.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:270714379886:android:c7f66f1926e80dfe8cd07f",
+        "mobilesdk_app_id": "1:1069479314535:android:3b0387aeeeb6d3d702c0c2",
         "android_client_info": {
-          "package_name": "com.example.parent"
+          "package_name": "com.shahabir.pcontrol.parent"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyAoC5Wp_Ukd1QWN1KhvlLcw6MxkYLNCIHI"
+          "current_key": "AIzaSyAe_qKpJIVNq96_CUq0YD6Bx2aWeRAkt08"
         }
       ],
       "services": {

@@ -3,3 +3,4 @@ flutter/
 key.properties
 .env
 *.apk
+google-services.json
