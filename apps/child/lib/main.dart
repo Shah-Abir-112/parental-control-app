@@ -5,23 +5,24 @@ const appRole = 'Child';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  String status;
-  try {
-    await Firebase.initializeApp();
-    status = 'Firebase connected ✅';
-  } catch (e) {
-    status = 'Firebase error ❌\n$e';
-  }
-  runApp(MaterialApp(
-    title: '$appRole App',
-    home: Scaffold(
-      appBar: AppBar(title: const Text('$appRole App')),
-      body: Center(
-        child: Padding(
-          padding: const EdgeInsets.all(24),
-          child: Text(status, textAlign: TextAlign.center),
-        ),
-      ),
-    ),
-  ));
-}
+    String status;
+      try {
+          await Firebase.initializeApp();
+              status = 'Firebase connected ✅';
+                } catch (e) {
+                    status = 'Firebase error ❌\n$e';
+                      }
+                        runApp(MaterialApp(
+                            title: '$appRole App',
+                                home: Scaffold(
+                                      appBar: AppBar(title: const Text('$appRole App')),
+                                            body: Center(
+                                                    child: Padding(
+                                                              padding: const EdgeInsets.all(24),
+                                                                        child: Text(status, textAlign: TextAlign.center),
+                                                                                ),
+                                                                                      ),
+                                                                                          ),
+                                                                                            ));
+                                                                                            }
+                                                                                            
