@@ -1,3 +1,4 @@
+import 'dashboard_page.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -24,7 +25,7 @@ Future<void> main() async {
                                                                         return const Scaffold(
                                                                                         body: Center(child: CircularProgressIndicator()));
                                                                                                   }
-                                                                                                            return snap.data == null ? const AuthPage() : const HomePage();
+                                                                                                            return snap.data == null ? const AuthPage() : const DashboardPage();
                                                                                                                     },
                                                                                                                           ),
                                                                                                                               );
