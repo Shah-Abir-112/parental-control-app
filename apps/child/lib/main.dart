@@ -1,3 +1,4 @@
+import 'connected_screen.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -55,7 +56,7 @@ Future<void> main() async {
                                                                                                                                                                                                                                                                     body: Center(child: CircularProgressIndicator()));
                                                                                                                                                                                                                                                                             }
                                                                                                                                                                                                                                                                                     final data = snap.data!.data();
-                                                                                                                                                                                                                                                                                            return data == null ? const PairPage() : ConnectedPage(data: data);
+                                                                                                                                                                                                                                                                                            return data == null ? const PairPage() : ConnectedScreen(data: data);
                                                                                                                                                                                                                                                                                                   },
                                                                                                                                                                                                                                                                                                       );
                                                                                                                                                                                                                                                                                                         }
