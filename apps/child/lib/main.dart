@@ -1,3 +1,4 @@
+import 'package:flutter_foreground_task/flutter_foreground_task.dart';
 import 'connected_screen.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
@@ -6,6 +7,7 @@ import 'package:flutter/material.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  FlutterForegroundTask.initCommunicationPort();
     String? startupError;
       try {
           await Firebase.initializeApp();
